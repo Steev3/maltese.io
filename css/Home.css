@@ -1,0 +1,462 @@
+@charset "utf-8";
+
+html, body {
+	height:100%;
+}
+
+.parallax-index {
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+}
+
+.parallax-index {
+	background-image: url("images/background1.jpg");
+}
+
+.text-index {
+	padding-top: 112px;
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	-webkit-text-shadow: 1px 1px 3px #000;
+	-moz-text-shadow: 1px 1px 3px #000;
+	-ms-text-shadow: 1px 1px 3px #000;
+	-o-text-shadow: 1px 1px 3px #000;
+	text-shadow: 1px 1px 3px #000;
+}
+
+.text-index h2 {
+	width: 95%;
+	position: relative;
+	float: left;
+	font-size: 2.3em;
+	letter-spacing: 2px;
+	text-align: center;
+	margin:0 2.5%;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.text-index span {
+	font-family: 'Cookie', cursive;
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: 2.2em;
+}
+
+#bottom-line {
+	position: relative;
+	float: left;
+	width: 40%;
+	height:1px;
+	margin: 50px 30%;
+	border-bottom: 1px solid white;
+	-webkit-text-shadow: 1px 1px 3px #000;
+  	-moz-text-shadow: 1px 1px 3px #000;
+  	-ms-text-shadow: 1px 1px 3px #000;
+  	-o-text-shadow: 1px 1px 3px #000;
+  	text-shadow: 1px 1px 3px #000;
+}
+
+.text-index h4 {
+	font-family: 'Indie Flower', cursive;
+	color: #FAF3DD;
+	position: relative;
+	float: left;
+	width: 90%;
+	font-size: 3.3em;
+	font-weight: 200;
+	text-align: center;
+	margin: 0 5%;
+	letter-spacing: 1px;
+}
+
+.separator {
+	position: relative;
+	float: left;
+ 	width: 100%;
+  	padding: 0;
+  	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.info,
+.highlight,
+.position,
+.opening-time {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.chi-siamo-text,
+.head-1,
+.head-3,
+.time-head {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: table;
+	margin-bottom: 50px;
+}
+
+.chi-siamo-text img {
+	margin: 0 auto;
+	height: 48px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.info i,
+.head-1 i,
+.head-3 i,
+.time-head i {
+	width: 100%;
+	font-size: 48px;
+	color: #34403A;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+.chi-siamo-text h1,
+.info h1,
+.head-1 h1,
+.head-3 h1,
+.time-head h1 {
+	width: 100%;
+	color: #34403A;
+	font-weight: 400;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom:20px;
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+#qualita,
+#varieta,
+#risparmio,
+#supporto,
+#gestione-ordini {
+	float: left;
+	width: 30%;
+	height: auto;
+}
+
+#qualita,
+#varieta,
+#supporto,
+#gestione-ordini {
+	margin-right: 5%;
+}
+
+#qualita .img-cont-1,
+#varieta .img-cont-2,
+#risparmio .img-cont-3,
+#supporto .img-cont-4 {
+	width: 100%;
+	display: table;
+}
+
+#gestione-ordini .img-cont-5 {
+	width: 100%;
+	height: 48px;
+	display: table;
+}
+
+#qualita .img-cont-1 img,
+#varieta .img-cont-2 img,
+#risparmio .img-cont-3 img,
+#supporto .img-cont-4 img {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#gestione-ordini .img-cont-5 i.material-icons {
+	width: 100%;
+	font-size: 48px;
+	text-align: center;
+	color: #329932;
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#qualita h2,
+#varieta h2,
+#risparmio h2,
+#supporto h2,
+#gestione-ordini h2 {
+	font-weight: 400;
+	text-align: center;
+	color: #329932;
+} 
+
+#qualita h3,
+#varieta h3,
+#risparmio h3,
+#supporto h3,
+#gestione-ordini h3 {
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.map {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,0.20);
+	border-radius: 4px;
+	cursor: pointer;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.position h3 {
+	text-align: center;
+}
+
+#indications {
+	width: 100%;
+	height: 200px;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+#opening-time {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+
+#table-1 {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.20);
+	overflow: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+table {
+	width: 100%;
+	margin: 0;
+	height: auto;
+	position: relative;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+#table-th {
+	height: 40px;
+	min-width: 392px;
+	max-width: 100%;
+}
+
+#table-td {
+	height: 300px;
+}
+
+#giorno {
+	width: 20%;
+	padding: 0;
+}
+
+#mattina,
+#pomeriggio {
+	width: 40%;
+	text-align: center;
+	color: white;
+}
+
+th {
+	background-color: #329932;
+	color: white;
+}
+
+tr:nth-child(even) {
+	color: #181F1C;
+	font-weight: bold;
+}
+
+th, td {
+	width: 20%;
+	text-align: center;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid #329932;
+}
+
+.comunications {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	margin: 10px 0 100px 0;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 4px;
+}
+
+.comunications h4 {
+	color: red;
+	font-size: 1.5em;
+	margin: 30px 20px;
+}
+
+.comunications p {
+	font-size: 1.2em;
+	margin: 0 20px 30px 20px;
+}
+
+@media only screen and (max-width : 992px) {
+
+	.text-index h2 {
+		font-size: 2.5em;
+	}
+
+	.text-index h4 {
+		font-size: 2.2em;
+	}
+
+	.container {
+		margin-top: 100px;
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+	#qualita,
+	#varieta,
+	#risparmio,
+	#supporto,
+	#gestione-ordini {
+		position: relative;
+		float: left;
+		width: 45%;
+		height: 300px;
+		margin: 2.5%;
+	}
+
+	#qualita h2,
+	#varieta h2,
+	#risparmio h2,
+	#supporto h2,
+	#gestione-ordini h2 {
+		font-weight: 400;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.text-index h2 {
+		font-size: 1.8em;
+		word-wrap: break-word;
+	}
+
+	.text-index h4 {
+		font-size: 1.6em;
+		word-wrap: break-word;
+	}
+
+	.container {
+		margin-top: 100px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+	#qualita,
+	#varieta,
+	#risparmio,
+	#supporto,
+	#gestione-ordini {
+		position: relative;
+		float: left;
+		margin: 0 1% 50px 1%;
+		width: 98%;
+		height: auto;
+	}
+
+	#qualita h2,
+	#varieta h2,
+	#risparmio h2,
+	#supporto h2,
+	#gestione-ordini h2 {
+		font-weight: 400;
+	} 
+	
+	#qualita h3,
+	#varieta h3,
+	#risparmio h3,
+	#supporto h3,
+	#gestione-ordini h3 {
+		font-size: 1.3em;
+		font-weight: 400;
+	}
+}

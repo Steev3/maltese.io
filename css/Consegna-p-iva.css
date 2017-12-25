@@ -1,0 +1,472 @@
+@charset "utf-8";
+
+/*Center*/
+.separator {
+	position: relative;
+	float: left;
+ 	width: 100%;
+  	padding: 0;
+  	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+	float: left;
+	margin-top: 150px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.text-commercial {
+	position: relative;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.head-article {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: table;
+	margin-bottom: 50px;
+}
+
+.head-article i {
+	width: 100%;
+	font-size: 48px;
+	color: #34403A;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+}
+
+.head-article h1 {
+	width: 100%;
+	color: #34403A;
+	font-weight: 400;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom:20px;
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.head-article sup {
+	font-weight: bold;
+	font-size: 0.5em;
+	color: #34403A;
+	border: 1px solid #34403A;
+	border-radius: 4px;
+	padding: 2px;
+	margin-left:2px;
+}
+
+.text-commercial h3 {
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.text-commercial h3 span {
+	color: #329932;
+	font-weight: bold;
+}
+
+.under-head-1,
+.under-head-2,
+.under-head-3,
+.under-head-4 {
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+	position: relative;
+	float: left;
+	border-radius: 10px;
+	border: 1px solid #f2f2f2;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.under-head-1 i,
+.under-head-2 i,
+.under-head-3 i,
+.under-head-4 i {
+	width: 100%;
+	color: #34403A;
+	text-align: center;
+	position: relative;
+	float: left;
+	font-size: 45px;
+}
+
+.under-head-1 h3,
+.under-head-2 h3,
+.under-head-3 h3,
+.under-head-4 h3 {
+	width: 100%;
+	color: #34403A;
+	position: relative;
+	float: left;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.under-head-4 h4 {
+	width: 90%;
+	margin:30px 5%;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+	position: relative;
+	float: left;
+}
+
+.who,
+.how,
+.pro,
+.conversion {
+	width: 100%;
+	height: auto;
+	margin: 30px 0 50px 0;
+	position: relative;
+	float: left;
+}
+
+.priorita,
+.liberta,
+.serenita {
+	width: 31.33%;
+	margin: 0 1% 30px 1%;
+	height: auto;
+	position: relative;
+	float: left;
+	border-radius: 10px;
+	border: 1px solid #f2f2f2;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.ristoranti,
+.pizzerie,
+.hotel,
+.market,
+.prenotazione,
+.lavorazione,
+.spedizione,
+.consegna {
+	width: 23%;
+	margin: 0 1% 30px 1%;
+	height: auto;
+	position: relative;
+	float: left;
+	border-radius: 10px;
+	border: 1px solid #f2f2f2;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.ristoranti i,
+.pizzerie i,
+.prenotazione i {
+	position: relative;
+	width: 100%;
+	height: 36px;
+	margin-top: 30px;
+	float: left;
+	font-size: 40px;
+	color: #329932;
+	text-align: center;
+}
+
+.market #market-img-cont,
+.hotel #hotel-img-cont,
+.lavorazione #lavorazione-img-cont,
+.spedizione #spedizione-img-cont,
+.consegna #consegna-img-cont,
+.priorita #priorita-img-cont,
+.liberta #liberta-img-cont,
+.serenita #serenita-img-cont {
+	width: 100%;
+	height: 36px;
+	margin-top: 30px;
+	display: table;
+}
+
+.market img,
+.hotel img,
+.lavorazione img,
+.spedizione img,
+.consegna img,
+.priorita img,
+.liberta img,
+.serenita img {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.ristoranti h4,
+.pizzerie h4,
+.hotel h4,
+.market h4,
+.lavorazione h4,
+.prenotazione h4,
+.spedizione h4,
+.consegna h4,
+.priorita h4,
+.liberta h4,
+.serenita h4 {
+	width: 100%;
+	float: left;
+	color: #329932;
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 30px;
+}
+
+.action-required {
+	width: 98%;
+	height: auto;
+	margin: 0 1%;
+	position: relative;
+	float: left;
+}
+
+form {
+	width: 100%;
+	height: auto;
+}
+
+#email {
+	position:relative;
+	display: block;
+	width: 40%;
+	height: 48px;
+	margin:30px auto 0;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 1.1em;
+	border: none;
+	outline: 0;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+#send-button {
+	display: block;
+	position: relative;
+	margin:20px auto 30px;
+	width: 40%;
+	height: 54px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #329932;
+	border-radius: 4px;
+	border:none;
+	outline: 0;
+	cursor: pointer;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+		0 1px 5px 0 rgba(0,0,0,0.12),
+		0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.send-button:hover {
+	background-color: #84C184;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+@media only screen and (max-width : 992px) {
+
+	.container {
+		width: 97%;
+		margin: 150px 1.5% 50px;
+	}
+
+	.head-article h1 {
+		font-size: 1.5em;
+	}
+
+	.text-commercial h3 {
+		font-size: 1.1em;
+	}
+
+	.how h3,
+	.who h3,
+	.pro h3,
+	.conversion h3 {
+		font-size: 1.3em;
+	}
+
+	.under-head-1 .prenotazione,
+	.under-head-1 .lavorazione,
+	.under-head-1 .spedizione,
+	.under-head-1 .consegna,
+	.under-head-2 .ristoranti,
+	.under-head-2 .pizzerie,
+	.under-head-2 .hotel,
+	.under-head-2 .market,
+	.under-head-3 .priorita,
+	.under-head-3 .liberta {
+		width:48%;
+	}
+
+	.under-head-3 .serenita {
+		width:98%;
+	}
+
+	.under-head-4 h4 {
+		font-size: 1.1em;
+	}
+
+	form #email {
+		width: 70%;
+		margin: 30px 15% 0;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+
+	.container {
+		width: 97%;
+		margin: 150px 1.5% 50px;
+	}
+
+	.head-article h1 {
+		font-size: 1.3em;
+		width: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.text-commercial h3 {
+		font-size: 1.1em;
+	}
+
+	.how h3,
+	.who h3,
+	.pro h3,
+	.conversion h3 {
+		font-size: 1.3em;
+	}
+
+	.under-head-1 .prenotazione,
+	.under-head-1 .lavorazione,
+	.under-head-1 .spedizione,
+	.under-head-1 .consegna,
+	.under-head-2 .ristoranti,
+	.under-head-2 .pizzerie,
+	.under-head-2 .hotel,
+	.under-head-2 .market,
+	.under-head-3 .priorita,
+	.under-head-3 .liberta,
+	.under-head-3 .serenita {
+		width:98%;
+	}
+
+	.under-head-4 h4 {
+		font-size: 1.1em;
+	}
+
+	form #email {
+		width: 95%;
+		margin: 30px 2.5% 0;
+	}
+
+	form #send-button {
+		width: 95%;
+		margin: 20px 2.5% 30px;
+	}
+
+}
